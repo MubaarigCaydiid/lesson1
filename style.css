@@ -1,0 +1,84 @@
+body{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(7, 30, 62);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 2.5rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 10px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    margin: 1px;
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+li a:hover{
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+main section {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+main section h2 {
+    color: #07213d;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #08305b;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (min-width: 991px)and(max-width: 390px){
+   body{
+    flex-wrap: wrap;
+   }
+}
